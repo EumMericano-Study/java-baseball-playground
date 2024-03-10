@@ -26,4 +26,11 @@ public class StringTest {
         String subStringWord = testWord.substring(1, testWord.length()-1);
         assertThat(subStringWord).isEqualTo("1,2");
     }
+
+    @Test
+    void substring_학습_테스트() {
+        String testWord = "(1,2)";
+        String subStringWord = testWord.substring(1, testWord.length()-1);
+        assertThat(subStringWord).isEqualTo("1,2");
+    }
 }
